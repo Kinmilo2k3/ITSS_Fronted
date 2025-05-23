@@ -39,7 +39,7 @@
 }
 
 .register-input {
-  width: 100%;
+  width: 90%;
   padding: 10px 14px;
   border-radius: 8px;
   border: 1.5px solid #a18cd1;
@@ -49,6 +49,7 @@
   outline: none;
   transition: border 0.2s, box-shadow 0.2s;
   box-shadow: 0 1px 4px #a18cd122;
+
   &:focus {
     border: 1.5px solid #6c2596;
     box-shadow: 0 2px 8px #a18cd133;
@@ -61,10 +62,12 @@
   position: relative;
   display: flex;
   align-items: center;
+
   .register-input {
     padding-right: 38px;
     margin-bottom: 0;
   }
+
   .register-eye {
     position: absolute;
     right: 12px;
@@ -74,7 +77,9 @@
     font-size: 1.2rem;
     cursor: pointer;
     transition: color 0.2s;
-    &:hover, &:focus {
+
+    &:hover,
+    &:focus {
       color: #6c2596;
     }
   }
@@ -94,6 +99,7 @@
   margin-bottom: 8px;
   letter-spacing: 2px;
   transition: background 0.2s, color 0.2s;
+
   &:hover {
     background: #6c2596;
     color: #fff;
